@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MahasisWork</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 
 
   </head>
   <body>
     
     <div class="container-fluid my-5">
-    <nav class="navbar navbar-expand-lg bg-light custom-nav bg-transparent">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light custom-nav bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">MahasisWork</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
