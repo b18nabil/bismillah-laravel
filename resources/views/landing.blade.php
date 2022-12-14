@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <body>
     
     <div class="container-fluid my-5">
-    <nav class="navbar fixed-top navbar-expand-lg bg-light custom-nav bg-transparent">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light custom-nav bg-transparent" style= "background-color: rgb (0, 90, 141)">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">MahasisWork</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,36 +62,36 @@
         <h1 class="service-title">Popular service</h1>
         <div class="row produk">
           <div class="col-3">
-            <div class="card text-bg-dark pil-produk">
-              <img src="img/Mentor.png" class="card-img" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Course <br> mentor</h5>
-              </div>
-            </div>
+          <div class="card text-bg-dark">
+            <img src="img/mentor.png" class="card-img" alt="...">
+             <div class="card-img-overlay">
+              <h5 class="card-title">Course Mentor</h5>
+          </div>
+          </div>
           </div>
           <div class="col-3">
-            <div class="card text-bg-dark pil-produk">
-              <img src="img/Design.png" class="card-img" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Graphic Design</h5>
-              </div>
-            </div>
+          <div class="card text-bg-dark">
+            <img src="img/Design.png" class="card-img" alt="...">
+             <div class="card-img-overlay">
+              <h5 class="card-title">Design</h5>
+          </div>
+          </div>
           </div>
           <div class="col-3">
-            <div class="card text-bg-dark pil-produk">
-              <img src="img/translation.png" class="card-img" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Translation</h5>
-              </div>
-            </div>
+          <div class="card text-bg-dark">
+            <img src="img/translation.png" class="card-img" alt="...">
+             <div class="card-img-overlay">
+              <h5 class="card-title">Translator</h5>
+          </div>
+          </div>
           </div>
           <div class="col-3">
-            <div class="card text-bg-dark pil-produk">
-              <img src="img/writing.png" class="card-img" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Writing</h5>
-              </div>
-            </div>
+          <div class="card text-bg-dark">
+            <img src="img/writing.png" class="card-img" alt="...">
+             <div class="card-img-overlay">
+              <h5 class="card-title">Writing</h5>
+          </div>
+          </div>
           </div>
         </div>
       </div>
