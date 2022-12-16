@@ -12,6 +12,7 @@ body {
 }
 .custom-nav #navbarNav {
   margin-right: 120px;
+
 }
 .custom-nav #navbarNav .nav-item .nav-link {
   color: #FFF5FD;
@@ -137,7 +138,7 @@ body {
   margin-top: 308px;
 }
 .footer .upper .title .mahasiswork {
-  margin-left: 102px;
+  margin-left: 100px;
   font-weight: 700;
   font-size: 40px;
   color: #FF96AD;
