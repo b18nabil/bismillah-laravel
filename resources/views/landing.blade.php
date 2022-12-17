@@ -27,7 +27,7 @@
                 <a class="nav-link" href="#">Become a freelance</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-primary login-button" href="#">Login</a>
+                <a class="nav-link btn btn-primary login-button" href="http://127.0.0.1:8000/login">Login</a>
               </li>
             </ul>
           </div>

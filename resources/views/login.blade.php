@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Mahasiswork | Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login.css">
   </head>
@@ -27,7 +27,7 @@
             <label class="label" for="floatingPlaintextInput">Password</label>
           </div>
           <section class="create-acc">
-            <span class="create">Create an account? <a href="">Here</a></span>
+            <span class="create">Create an account? <a href="http://127.0.0.1:8000/sign-up">Here</a></span>
           </section>
           <section class="remember">
             <input class="form-check-input mt-0 klik" type="checkbox" value="" aria-label="Checkbox for following text input">
