@@ -24,7 +24,7 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Become a freelance</a>
+                <a class="nav-link" href="http://127.0.0.1:8000/sign-up">Become a freelance</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link btn btn-primary login-button" href="http://127.0.0.1:8000/login">Login</a>
