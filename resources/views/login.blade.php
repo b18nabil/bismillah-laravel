@@ -35,7 +35,7 @@
             <input class="form-check-input mt-0 klik" type="checkbox" value="" aria-label="Checkbox for following text input">
             <span class="remember-text">Remember Login</span>
           </section>
-          <button type="button" class="btn btn-primary login-btn">Login</button>
+          <button type="submit" class="btn btn-primary login-btn">Login</button>
           
         </div>
           
