@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/sign-in.css">
   </head>
   <body>
-
-    <div class="container-fluid">
+    <div class="container-auto">
         <div class="row">
             <div class="col-6 text-center left">
                 <h1 class="title">Welcome, MahasisWork!</h1>
@@ -39,8 +38,8 @@
                 <span class="have-acc">Have an account? <span class="login"><a href="http://127.0.0.1:8000/login">Login here</a></span></span>
                 <button type="button" class="btn btn-primary sign-up">Sign Up</button>
             </div>
-            <div class="col-6">
-                <img src="img/sign up image.png" alt="">
+            <div class="col-6" alt="">
+                <img src="img/sign up image (7).png">
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class="container-fluid">
+    <div class="container-auto">
       <div class="row align-items-center">
         <div class="col-6">
           <img src="img/login image.png" alt="">
@@ -18,25 +18,26 @@
           <h1 class="welcome">Welcome back, people!</h1>
           <span class="desc">Welcome back! Please enter your details</span>
           <button type="button" class="btn btn-outline-light goog-log">Login with Google</button>
-          <div class="identity">
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email</label>
+          <form action="{{route('postLogin')}}" method="post">
+            <div class="identity">
+              <div class="form-floating mb-3 my-4">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3 my-2">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
             </div>
-            <div class="form-floating mb-3">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Password</label>
-            </div>
-          </div>
-          <section class="create-acc">
-            <span class="create">Create an account? <a href="http://127.0.0.1:8000/sign-up">Here</a></span>
-          </section>
-          <section class="remember">
-            <input class="form-check-input mt-0 klik" type="checkbox" value="" aria-label="Checkbox for following text input">
-            <span class="remember-text">Remember Login</span>
-          </section>
-          <button type="submit" class="btn btn-primary login-btn">Login</button>
-          
+            <section class="create-acc">
+              <span class="create">Create an account? <a href="/sign-up">Here</a></span>
+            </section>
+            <section class="remember">
+              <input class="form-check-input mt-0 klik" type="checkbox" value="" aria-label="Checkbox for following text input">
+              <span class="remember-text">Remember Login</span>
+            </section>
+            <button type="submit" class="btn btn-primary login-btn">Login</button>
+          </form>
         </div>
           
         </div>
